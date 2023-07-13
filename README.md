@@ -7,6 +7,15 @@
 composer require daycod/contact
 ```
 
+### Publish the Vendor
+```
+php artisan vendor:publish
+```
+then, select the service provider class below:
+```php
+DayCod\Contact\ContactServiceProvider::class
+```
+
 ### Config File in config/contact.php
 ```php
 
