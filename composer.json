@@ -1,0 +1,19 @@
+{
+    "name": "daycod/contact",
+    "description": "Input Name, Email and test, then system will send you and email",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dayCod",
+            "email": "alayarahman07@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DayCod\\Contact\\": "src/"
+        }
+    }
+}
