@@ -5,7 +5,6 @@
 ### Install Package
 ```
 composer require daycod/contact
-
 ```
 
 ### Config File in config/contact.php
