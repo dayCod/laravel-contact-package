@@ -15,5 +15,12 @@
         "psr-4": {
             "DayCod\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DayCod\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
