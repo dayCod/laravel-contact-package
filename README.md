@@ -1,6 +1,6 @@
 # Laravel Contact Package
 
-## Input Name, Email and test, then system will send you an email
+## input name, email and message, then system will send you an email
 
 ### Install Package
 ```
