@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use DayCod\Contact\Models\Contact;
 use DayCod\Contact\Mail\ContactMailable;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 
 class ContactController extends Controller
 {
@@ -21,6 +22,6 @@ class ContactController extends Controller
 
         Contact::create($request->except('_token'));
 
-        return redirect()->back();
+        return redirect()->route('contact-page');
     }
 }
